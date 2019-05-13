@@ -124,9 +124,9 @@ index 1ba5533c3efb..abfd55a2c703 100644
 +      # Store target must come before any SDK version declaration
 +      if (target_store):
 +        args.append(['store'])
-+      # Chromium requires the 10.0.17134.0 SDK - previous versions don't have
++      # Chromium requires the 10.0.18362.0 SDK - previous versions don't have
 +      # all of the required declarations.
-+      args.append('10.0.17134.0')
++      args.append('10.0.18362.0')
 +      variables = _LoadEnvFromBat(args)
 +    else:
 +      variables = []
