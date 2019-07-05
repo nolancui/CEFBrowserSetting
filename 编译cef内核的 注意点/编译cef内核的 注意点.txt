@@ -234,3 +234,4 @@ When you’re ready to contribute your changes back to the CEF project see the Co
 3.update.bat的目录为 C:\code\chromium_git
 4.create.bat的目录为 C:\code\chromium_git\chromium\src\cef
 5.执行编译命令 ninja -C out\Debu_GN_x64 cef
+6.编译64位会出现错误,需要将out\Debu_GN_x64 文件夹下的dbhelp.dll删除,否则出现exe执行出错,退出编译过程
